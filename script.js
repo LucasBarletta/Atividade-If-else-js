@@ -2,7 +2,23 @@
 
 /*let idade = Number(prompt("Digite sua idade."));
 
-if(idade >= 60){
+if(idade>=50){
+    let aposentado = window.confirm("Você é aposentado?")
+    if (aposentado){
+        alert("Entrada gratuita")
+    }else{
+    
+        let answer = window.confirm("Você é estudante?")
+    if (answer) {
+    alert("R$17,50 entrada")
+    }
+    else {
+    alert("R$35,00 entrada")
+        }
+    }
+}
+
+ else if(idade >= 60){
     alert("Entrada gratuita!")
 }
 
@@ -62,7 +78,7 @@ else{
 
 /* Sistema de empréstimo */
 
-let idade = Number(prompt("Digite sua idade"));
+/*let idade = Number(prompt("Digite sua idade"));
 
 if(idade >= 25 && idade <= 60){
     let salario = Number(prompt("Digite seu salario"));
@@ -82,7 +98,7 @@ if(idade >= 25 && idade <= 60){
     }
 }else{
     alert("reprovado idade")
- }
+ }*/
 
 
 
