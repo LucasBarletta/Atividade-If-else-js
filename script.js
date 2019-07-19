@@ -100,6 +100,17 @@ if(idade >= 25 && idade <= 60){
     alert("reprovado idade")
  }*/
 
+ /* Extra*/
 
+ /*let numero = prompt("Digite o numero do celular");
+
+ if(numero[0] == "9" && numero.length == 9){
+     alert("Numero valido")
+ }
+
+ else{
+     alert("Numero invalido")
+ }
+*/
 
  
